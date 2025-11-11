@@ -3,6 +3,7 @@ Bob's Mathematical Functions Library
 
 This module provides efficient implementations of common mathematical functions
 for use in various computational tasks.
+[This is test on MBA]
 """
 
 import math
