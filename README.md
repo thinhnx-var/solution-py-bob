@@ -14,6 +14,21 @@ Bob's implementation of various mathematical functions in Python.
 
 ## Installation
 
+### Using Poetry (Recommended)
+
+```bash
+# Install dependencies
+poetry install
+
+# Activate the virtual environment
+poetry shell
+
+# Or run commands directly
+poetry run python src/math_functions.py
+```
+
+### Using pip
+
 ```bash
 # Install in development mode
 pip install -e .
@@ -25,10 +40,14 @@ pip install -r requirements.txt
 ## Build and Test
 
 ```bash
-# Run the demo
-python src/math_functions.py
+# With Poetry
+poetry run python src/math_functions.py
 
 # Run tests (when Alice's test suite is merged)
+poetry run pytest
+
+# Without Poetry
+python src/math_functions.py
 pytest
 ```
 
